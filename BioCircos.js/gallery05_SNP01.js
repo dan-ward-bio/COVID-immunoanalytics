@@ -1283,7 +1283,6 @@ var SNP01 = [ "SNP01" , {
 {chr:"nsp12",pos:"3",value:"0.0002019522",des:"REF:L;ALT:I<br>Continent:EU:6|UK:1"}
 {chr:"nsp2",pos:"32",value:"0.0002019454",des:"REF:S;ALT:L<br>Continent:EU:5|OC:1|UK:3"}
 {chr:"nsp12",pos:"3",value:"0.0002019386",des:"REF:A;ALT:V<br>Continent:EU:2|AS:2|OC:2|UK:2"}
-{chr:"nsp13",pos:"",value:"0.0002019386",des:"REF:S;ALT:G<br>Continent:EU:5|OC:1|UK:2"}
 {chr:"nsp9",pos:"15",value:"0.0002019386",des:"REF:A;ALT:V<br>Continent:|NA:5|OC:1"}
 {chr:"nsp12",pos:"904",value:"0.000201925",des:"REF:S;ALT:L<br>Continent:EU:4|AS:1|NA:1|SA:1|UK:2"}
 {chr:"nsp12",pos:"899",value:"0.0002018978",des:"REF:T;ALT:I:D<br>Continent:EU:2|AS:1|NA:4|SA:1|UK:1"},
