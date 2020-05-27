@@ -9,12 +9,12 @@ var SNP01 = [ "SNP01" , {
   maxRadius: 234,
   minRadius: 219,
   SNPFillColor: "#9400D3",
-  circleSize: 1,
+  circleSize: 0.7,
   displaySNPAxis: true,
   SNPAxisColor: "#000000",
   SNPAxisWidth: 0.5
 } , [
-  {chr:"S",pos:"614",value:"0.713292613",des:"REF:D;ALT:G:N<br>Continent:EU:13699|AS:2829|NA:4740|SA:249|AF:142|OC:1053|UK:101"}
+{chr:"S",pos:"614",value:"0.713292613",des:"REF:D;ALT:G:N<br>Continent:EU:13699|AS:2829|NA:4740|SA:249|AF:142|OC:1053|UK:101"}
 {chr:"nsp12",pos:"314",value:"0.7119919042",des:"REF:P;ALT:F:L:T:S<br>Continent:EU:13680|AS:2831|NA:4737|SA:249|AF:142|OC:1047|UK:10151"}
 {chr:"N",pos:"203",value:"0.2604328712",des:"REF:R;ALT:I:M:S:K<br>Continent:EU:4878|AS:951|NA:1848|SA:67|AF:58|OC:426|UK:3614"}
 {chr:"N",pos:"204",value:"0.2595734613",des:"REF:G;ALT:R:L:V<br>Continent:EU:4856|AS:946|NA:1843|SA:66|AF:57|OC:426|UK:3602"}
