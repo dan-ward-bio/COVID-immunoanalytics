@@ -12,6 +12,9 @@ All raw data files can be downloaded using this [link](https://lshtm-my.sharepoi
 ##### If you would like a specific dataset that isn't easily accessed here or on the website, email daniel.ward1@lshtm.ac.uk
 
 
+
+
+
 ### Immunoanalytics Plot
 #### as noted above, all raw data files can be found on OneDrive with the following [link](https://lshtm-my.sharepoint.com/:f:/g/personal/lsh1603403_lshtm_ac_uk/Es5YMHN19nlGkBB0zR6Y1o8BrEVDMXwywSqZouQClT9cyg?e=V1wPT9).
 
@@ -22,6 +25,9 @@ All raw data files can be downloaded using this [link](https://lshtm-my.sharepoi
 **Epitope mapping** - B/T cell epitope inference was mapped to the main data table using positional metadata. The IEDB database was scraped using a looped *wget* command, each epitope sequence was mapped using BLASTp and merged with the primary data table.
 
 **Homology analysis** - We obtained a canonical amino-acid sequence of each orthologous protein, separated it in to kmers and mapped it to the SARS-CoV-2 reference sequence using BLASTp.
+
+
+
 
 ### Mutation Tracker
 
