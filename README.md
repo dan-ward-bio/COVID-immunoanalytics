@@ -1,5 +1,6 @@
 # SARS-CoV-2 Immunoanalytics Platform
-## http://genomics.lshtm.ac.uk/immuno/
+## Website Resource: http://genomics.lshtm.ac.uk/immuno/
+## Preprint Paper: https://www.biorxiv.org/content/10.1101/2020.05.11.089409v2
 
 In this repo you can find the most up-to-date raw data files for the data and analyses shown genomics.lshtm.ac.uk/immuno website. The code underpinning the website, including visualisations, static data, and tables in JSON format can be found at [Jody Phelan's COVID-profiler repo](https://github.com/jodyphelan/covid-profiler).
 
