@@ -8,6 +8,8 @@ In this repo you can find the most up-to-date raw data files for the data and an
 
 All raw data files can be downloaded using this [link](https://lshtm-my.sharepoint.com/:f:/g/personal/lsh1603403_lshtm_ac_uk/Es5YMHN19nlGkBB0zR6Y1o8BrEVDMXwywSqZouQClT9cyg?e=V1wPT9). Because these files are too large to be hosted through GitHub we will be using Microsoft OneDrive for the foreseeable future.
 
+##### If you would like a specific dataset that isn't easily accessed here or on the website, email daniel.ward1@lshtm.ac.uk
+
 
 ### Immunoanalytics Plot
 #### as noted above, all raw data files can be found on OneDrive with the following [link](https://lshtm-my.sharepoint.com/:f:/g/personal/lsh1603403_lshtm_ac_uk/Es5YMHN19nlGkBB0zR6Y1o8BrEVDMXwywSqZouQClT9cyg?e=V1wPT9).
