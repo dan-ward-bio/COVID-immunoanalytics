@@ -1,3 +1,6 @@
+<html>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<head>
 <script>
 google.charts.load('current', {packages: ['corechart', 'bar']});
 google.charts.setOnLoadCallback(drawBasic);
@@ -85,3 +88,5 @@ function drawBasic() {
       chart.draw(data, options);
     }
 </script>
+</head>
+</html>
