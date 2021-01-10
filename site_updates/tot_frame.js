@@ -1,3 +1,4 @@
+<script>
 google.charts.load('current', {packages: ['corechart', 'bar']});
 google.charts.setOnLoadCallback(drawBasic);
 
@@ -83,3 +84,4 @@ function drawBasic() {
 
       chart.draw(data, options);
     }
+</script>
