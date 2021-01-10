@@ -1,14 +1,14 @@
-<html>
 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-<head>
+ <div id="chart_div">
+
 <script>
 google.charts.load('current', {packages: ['corechart', 'bar']});
 google.charts.setOnLoadCallback(drawBasic);
 
 function drawBasic() {
 
-      var data = google.visualization.arrayToDataTable([
-              ['Week#', 'Europe', 'Asia', 'North America', 'South America', 'Africa', 'Oceania', 'United Kingdom'],
+     var data = google.visualization.arrayToDataTable([
+             ['Week#', 'Europe', 'Asia', 'North America', 'South America', 'Africa', 'Oceania', 'United Kingdom'],
 ['44-2010',4,0,0,0,0,0,0],
 ['1-2019',0,20,0,0,0,0,0],
 ['52-2019',0,2,0,0,0,0,0],
@@ -63,30 +63,29 @@ function drawBasic() {
 ['49-2020',720,5,30,3,0,7,907],
 ['50-2020',0,0,0,0,0,10,11],
 ['51-2020',1,1,0,0,0,6,0],
-      ]);
+     ]);
 
-      var options = {
-        title: 'Total SARS-CoV-2 Sequences Published on GISAID',
-        explorer: {
-        axis: 'vertical',
-        keepInBounds: true,
-        maxZoomIn: 4.0,
+     var options = {
+       title: 'Total SARS-CoV-2 Sequences Published on GISAID',
+       explorer: {
+       axis: 'vertical',
+       keepInBounds: true,
+       maxZoomIn: 4.0,
 },
-        hAxis: {title: 'Week Number',showTextEvery: 1,slantedText: true, slantedTextAngle: 30, minSpacing: 1},
-        vAxis: {title: 'Sequence Count'},
-        isStacked: true,
-        width:1700, height:540,
-        animation: {duration: 1000, easing: 'out', startup: true},
-        dataOpacity: 1.0,
-        theme: 'material',
-        focusTarget: 'category',
-        bar: {groupWidth: '95%'},
-      };
+       hAxis: {title: 'Week Number',showTextEvery: 1,slantedText: true, slantedTextAngle: 30, minSpacing: 1},
+       vAxis: {title: 'Sequence Count'},
+       isStacked: true,
+       width:1700, height:540,
+       animation: {duration: 1000, easing: 'out', startup: true},
+       dataOpacity: 1.0,
+       theme: 'material',
+       focusTarget: 'category',
+       bar: {groupWidth: '95%'},
+     };
 
-      var chart = new google.visualization.ColumnChart(document.getElementById('chart_div'));
+     var chart = new google.visualization.ColumnChart(document.getElementById('chart_div'));
 
-      chart.draw(data, options);
-    }
-</script>
-</head>
-</html>
+     chart.draw(data, options);
+   }
+ </script>
+</div>
